@@ -3,20 +3,20 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="container-fluid bg-grey py-5">
+        <footer className="container-fluid bg-black py-3">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="row">
                             <div className="col-md-6 ">
                                 <div className="logo-part">
-                                    <img src="https://seeklogo.com/images/E/escola-saga-logo-B929652B99-seeklogo.com.png" alt="" className="w-50 logo-footer" />
-                                    <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
-                                    <p>North Docota, America.</p>
+                                    <img src="https://www.freepnglogos.com/uploads/medical-logo-png-5.png" alt="" className="w-50 logo-footer" />
+                                    <p>399 Lawrence Dr.</p>
+                                    <p>Brooklyn, NY 11201</p>
                                 </div>
                             </div>
                             <div className="col-md-6 px-4">
-                                <h6> About Website</h6>
+                                <h6> About Us</h6>
                                 <p>Take Love & Keep Loving!</p>
                                 <a href="#" className="btn-footer"> More Info </a><br />
                                 <a href="#" className="btn-footer"> Contact Us</a>
@@ -53,8 +53,8 @@ const Footer = () => {
                             <div className="col-md-6 ">
                                 <h6> Newsletter</h6>
                                 <div className="social">
-                                    <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i className="fa fa-instagram ms-3" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-facebook text-primary" aria-hidden="true"></i></a>
+                                    <a href="#"><i className="fa fa-instagram ms-3 text-danger" aria-hidden="true"></i></a>
                                 </div>
                                 <form className="form-footer my-3">
                                     <input type="text" placeholder="search here...." name="search" />
