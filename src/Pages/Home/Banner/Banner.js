@@ -24,10 +24,10 @@ const Banner = () => {
                             <button className="banner-btn">Neurology</button>
                         </div>
                         <div class="col">
-                            <button className="banner-btn">Heart Disease</button>
+                            <button className="banner-btn">Cardiology</button>
                         </div>
                         <div class="col">
-                            <button className="banner-btn">Hematology</button>
+                            <button className="banner-btn">Urology</button>
                         </div>
                     </div>
                 </div>
